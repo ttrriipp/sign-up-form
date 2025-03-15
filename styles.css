@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: "logo";
+    src:
+        url("fonts/Norse-Bold.woff2") format("woff2"),
+        url("fonts/Norse-Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    min-width: 300px;
+    width: 500px;
+    background-image: url(images/orange-leaves.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: 250%;
+}
+
+.image-background {
+    background-color: hsl(0, 0%, 0%, 0.5);
+    position: relative;
+    top: 25vh;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.odin-logo {
+    height: 90%;
+}
+
+.logo-title {
+    font-family: "logo", sans-serif;
+    color: white;
+    font-size: 5em;
+}
+
+.credits {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+.credits a {
+    color: white;
+}
+
+main {
+    min-width: 600px;
+}
+
+.form-section {
+    background-color: beige;
+}
