@@ -134,4 +134,32 @@ main {
 .authenticate-container {
     background-color: hsl(0, 0%, 95%);
     height: 34%;
+    padding: 20px 40px 0;
+}
+
+.authenticate span {
+    display: block;
+}
+
+.create-account {
+    padding: 12px 40px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(31, 100%, 45%);
+    color: white;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px hsl(0, 1%, 78%);
+    margin-bottom: 25px;
+}
+
+.create-account:hover {
+    cursor: pointer;
+    background-color: hsl(31, 100%, 40%);
+}
+
+.login a {
+    text-decoration: none;
+    color: hsl(31, 100%, 45%);
+    font-weight: bold;
 }
