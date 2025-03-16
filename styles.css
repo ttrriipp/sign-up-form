@@ -33,7 +33,7 @@ body {
     background-color: hsl(0, 0%, 0%, 0.5);
     position: relative;
     top: 25vh;
-    height: 150px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,25 +41,25 @@ body {
 }
 
 .odin-logo {
-    height: 90%;
+    height: 100%;
 }
 
 .logo-title {
     font-family: "logo", sans-serif;
     color: white;
-    font-size: 5em;
+    font-size: 4.5em;
 }
 
 .credits {
     text-align: center;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(51, 38, 38);
     font-size: 0.8em;
     font-weight: lighter;
 }
 
 .credits a {
-    color: white;
+    color: rgb(51, 38, 38);
 }
 
 main {
